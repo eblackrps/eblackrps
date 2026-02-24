@@ -1,6 +1,6 @@
 Eric Black
 
-Cloud & Disaster Recovery Engineer
+Cloud & Disaster Recovery Architect
 Building automation and resilience tooling around Veeam, VMware, Hyper-V, and Kubernetes.
 
 ⸻
