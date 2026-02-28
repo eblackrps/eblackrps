@@ -53,11 +53,6 @@ Automation should reduce risk, not just reduce clicks.
 
 ⸻
 
-Connect
-
-LinkedIn: https://www.linkedin.com/in/eb999
-
-
 <!--
 **eblackrps/eblackrps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
