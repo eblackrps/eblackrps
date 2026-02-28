@@ -1,69 +1,68 @@
-Eric Black
+# Eric Black
 
-Cloud & Disaster Recovery Architect
-Building automation and resilience tooling around Veeam, VMware, Hyper-V, and Kubernetes.
+Cloud & Disaster Recovery Architect. I build tooling around **tested recovery**, not just backup presence.
 
-⸻
+> *Backups are not strategy. Tested recovery is strategy.*  
+> *Automation should reduce risk, not just reduce clicks.*
 
-What I Work On
-	•	Backup and recovery automation
-	•	DR architecture and validation tooling
-	•	Operational risk translation for leadership
-	•	Hyper-V and VMware deployment scaffolding
-	•	Kubernetes backup and storage experiments
+---
 
-I build practical tools meant to solve real operational problems, not slide deck problems.
+## Focus
 
-⸻
+- DR architecture validation and scoring
+- Backup coverage analysis and gap detection
+- Recovery simulation and failure blast radius modeling
+- Infrastructure automation for service providers
+- Kubernetes data protection workflows
 
-Featured Projects
+---
 
-🔹 ItsDeadJim
+## Projects
 
-Failure simulation and recovery validation tooling focused on real-world backup scenarios.
+### [k8s-recovery-visualizer](https://github.com/eblackrps/k8s-recovery-visualizer)
 
-🔹 Recovery Risk Translator
+Go CLI that scans a live Kubernetes cluster and produces a weighted DR readiness score across four domains. Collects 18+ resource types, auto-detects 7 backup tools, and generates a fully self-contained HTML report with prioritized remediation steps, historical trend tracking, and scan-to-scan diff.
 
-Translates technical recovery posture into business-understandable impact language.
+```
+scan --target=vm --csv --namespace=prod,staging --compare=./last-scan.json
+```
 
-🔹 Veeam Designer
+| Domain | Weight | What It Measures |
+|---|---|---|
+| Storage | 35% | PVC binding, storageClass, hostPath, reclaim policies |
+| Workload | 20% | StatefulSet persistence, deployment coverage |
+| Config | 15% | CRD backup readiness, certificate expiry, image registry risk |
+| Backup/Recovery | 30% | Tool presence, policy coverage, Helm values, public images |
 
-Architecture and sizing helper for Veeam environments.
+**Maturity tiers:** PLATINUM · GOLD · SILVER · BRONZE  
+**Output:** JSON, enriched JSON, Markdown, self-contained HTML, CSV
 
-🔹 Hyper-V Cluster Scaffold
+---
 
-PowerShell-driven cluster deployment framework for lab and production testing.
+### [ItsDeadJim](https://github.com/eblackrps/ItsDeadJim)
 
-⸻
+Read-only chaos simulation tool that models backup failure blast radius before production does it for you. Maps recovery dependencies and sequences, surfaces risk before a DR event occurs.
 
-Current Focus
-	•	Strengthening recovery validation methodologies
-	•	Backup security and operational hardening
-	•	Kubernetes data protection workflows
-	•	Infrastructure automation patterns for service providers
+---
 
-⸻
+### [recovery-risk-translator](https://github.com/eblackrps/recovery-risk-translator)
 
-Philosophy
+Takes rough incident inputs and produces a clean, executive-safe post-incident DR narrative. Bridges the gap between technical recovery timelines and business communication requirements.
 
-Backups are not strategy.
-Tested recovery is strategy.
+---
 
-Automation should reduce risk, not just reduce clicks.
+### [veeam_designer](https://github.com/eblackrps/veeam_designer)
 
-⸻
+Environment planning and architecture sizing tooling for Veeam deployments.
 
-<!--
-**eblackrps/eblackrps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### [Hyper-v_cluster_scaffold](https://github.com/eblackrps/Hyper-v_cluster_scaffold)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+PowerShell-driven framework for Hyper-V cluster deployment in lab and production testing environments.
+
+---
+
+## Stack
+
+Go · PowerShell · Kubernetes · Veeam · VMware · Hyper-V
