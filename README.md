@@ -1,6 +1,6 @@
 ## Hi, I'm E. Black 👋
 
-Infrastructure engineer focused on enterprise backup, disaster recovery, and storage architecture.
+Cloud Architect focused on virtualization, enterprise backup, disaster recovery, and storage architectures.
 
 ---
 
