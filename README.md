@@ -1,6 +1,6 @@
 ## Eric Black · Cloud/DR Architect
 
-Infrastructure engineer focused on backup architecture, disaster recovery automation, and resilience tooling. Building open-source tools for Veeam admins, platform engineers, and DR practitioners.
+Cloud Architect focused on virtualization, backup architecture, disaster recovery automation, and resilience tooling. Building open-source tools for Veeam admins, platform engineers, and DR practitioners.
 
 **Recovery Point** · [LinkedIn](https://linkedin.com/in/eb999)
 
