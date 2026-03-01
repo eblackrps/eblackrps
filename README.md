@@ -10,7 +10,7 @@ Cloud Architect focused on virtualization, backup architecture, disaster recover
 
 ---
 
-#### [veeam_designer](https://github.com/eblackrps/veeam_designer) · Python · v3.0.0
+#### [veeam_designer](https://github.com/eblackrps/veeam_designer) · Python · v3.1.0
 
 Multi-site Veeam backup environment sizing and architecture tool. Accepts a YAML project file and produces a full infrastructure blueprint — repo sizing, proxy count, SOBR layout, WAN/RPO feasibility, risk scoring, 3-year TCO, and more.
 
