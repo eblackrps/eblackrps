@@ -24,9 +24,6 @@ My current flagship open source project is [Viaduct](https://github.com/eblackrp
 | [mcp-home](https://github.com/eblackrps/mcp-home) | Read-only MCP server for Windows homelab operations across Docker, Plex, files, repositories, and health dashboards. | TypeScript |
 
 ## Additional Projects
-
-- [veeam-mcp-server](https://github.com/eblackrps/veeam-mcp-server) - MCP server exposing Veeam operational intelligence for monitoring, recovery, compliance, and triage workflows
-- [veeam-ports-mcp](https://github.com/eblackrps/veeam-ports-mcp) - natural-language Veeam port intelligence, topology mapping, and firewall rule generation
 - [recovery-risk-translator](https://github.com/eblackrps/recovery-risk-translator) - converts rough incident inputs into executive-safe DR narratives
 - [ItsDeadJim](https://github.com/eblackrps/ItsDeadJim) - read-only chaos simulation for backup failure blast radius analysis
 
