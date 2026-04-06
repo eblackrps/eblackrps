@@ -2,16 +2,6 @@
 
 Cloud and disaster recovery architect building operator-focused tooling for migration, recovery, platform automation, and lifecycle operations.
 
-My current flagship open source project is [Viaduct](https://github.com/eblackrps/Viaduct), a production-ready hypervisor-agnostic workload migration and lifecycle management platform. Viaduct brings together multi-platform discovery, dependency-aware planning, cold and warm migration orchestration, lifecycle remediation, backup portability, tenant-scoped operations, and a React dashboard for operators.
-
-**Recovery Point** · [LinkedIn](https://linkedin.com/in/eb999)
-
-## Current Focus
-
-- [Viaduct](https://github.com/eblackrps/Viaduct) - released as [v1.0.0](https://github.com/eblackrps/Viaduct/releases/tag/v1.0.0) with packaged CLI artifacts, dashboard assets, install docs, release gating, and contributor guidance
-- migration and lifecycle tooling for VMware, Proxmox, Hyper-V, KVM, Nutanix, and Veeam-adjacent operational workflows
-- recovery engineering that is observable, testable, and safe for real operator use
-
 ## Featured Projects
 
 | Project | What it does | Stack |
