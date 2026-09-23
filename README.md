@@ -1,11 +1,12 @@
 # Eric Black
 
-Cloud and disaster recovery architect building operator-focused tooling for migration, recovery, platform automation, and lifecycle operations.
+Cloud and disaster recovery architect building operator-focused tooling for migration, recovery, platform automation, secure communications, and lifecycle operations.
 
 ## Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
+| [DC Coms](https://github.com/eblackrps/dc-coms) | Self-hosted, browser-based Matrix communication platform with encrypted chat, private channels, operational bots, account lifecycle tooling, automated backups, and a reproducible RHEL-family deployment. | TypeScript, React, Matrix/Synapse, PostgreSQL, Podman |
 | [Viaduct](https://github.com/eblackrps/Viaduct) | Hypervisor-agnostic workload migration and lifecycle management with discovery, planning, orchestration, rollback, lifecycle remediation, and operator UX. | Go, TypeScript, React |
 | [HyperVClusterPlatform](https://github.com/eblackrps/HyperVClusterPlatform) | Production-hardened Hyper-V cluster automation for deployment, audit, enforcement, remediation, and health scoring workflows. | PowerShell |
 | [k8s-recovery-visualizer](https://github.com/eblackrps/k8s-recovery-visualizer) | Kubernetes disaster recovery assessment with offline HTML reporting for cluster readiness and resilience gaps. | Go |
@@ -14,7 +15,7 @@ Cloud and disaster recovery architect building operator-focused tooling for migr
 
 ## Focus Areas
 
-`Migration` `Disaster Recovery` `Lifecycle Management` `Veeam` `Virtualization` `Go` `PowerShell` `Python` `TypeScript` `React` `MCP`
+`Migration` `Disaster Recovery` `Lifecycle Management` `Veeam` `Virtualization` `Secure Communications` `Self-Hosted` `Matrix` `Go` `PowerShell` `Python` `TypeScript` `React` `MCP`
 
 ## Working Principles
 
