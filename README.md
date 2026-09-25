@@ -7,10 +7,9 @@ Cloud and disaster recovery architect building operator-focused tooling for migr
 | Project | What it does | Stack |
 |---|---|---|
 | [DC Coms](https://github.com/eblackrps/dc-coms) | Self-hosted, browser-based Matrix communication platform with encrypted chat, private channels, operational bots, account lifecycle tooling, automated backups, and a reproducible RHEL-family deployment. | TypeScript, React, Matrix/Synapse, PostgreSQL, Podman |
-automation for deployment, audit, enforcement, remediation, and health scoring workflows. | PowerShell |
 | [k8s-recovery-visualizer](https://github.com/eblackrps/k8s-recovery-visualizer) | Kubernetes disaster recovery assessment with offline HTML reporting for cluster readiness and resilience gaps. | Go |
 | [veeam_designer](https://github.com/eblackrps/veeam_designer) | Multi-site Veeam environment sizing and architecture planning with risk scoring and TCO outputs. | Python, FastAPI |
-| [mcp-home](https://github.com/eblackrps/mcp-home) | Read-only MCP server for Windows homelab operations across Docker, Plex, files, repositories, and health dashboards. | TypeScript |
+
 
 ## Focus Areas
 
