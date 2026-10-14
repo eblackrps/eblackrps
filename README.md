@@ -21,9 +21,6 @@ The projects here are built around real operator problems: unclear sizing assump
 - **[K8 Visualizer](https://github.com/eblackrps/k8s-recovery-visualizer)** · **v1.10.5** · [Releases](https://github.com/eblackrps/k8s-recovery-visualizer/releases/latest)  
   Windows/Linux desktop toolkit for Kubernetes disaster recovery assessments, restore-readiness findings, offline bundle review, and comparison over time.
 
-- **[GhostFleet](https://github.com/eblackrps/ghostfleet)**  
-  Synthetic VM fleet and workload-data generator for repeatable backup, storage efficiency, deduplication, compression, and change-rate testing across virtualization platforms.
-
 ### Applications & operations tooling
 
 - **[DC Coms](https://github.com/eblackrps/dc-coms)** · **v1.0.1 GA** · [Release](https://github.com/eblackrps/dc-coms/releases/tag/v1.0.1)  
@@ -57,4 +54,3 @@ At [**AnyStackArchitect**](https://www.anystackarchitect.com/), I write about in
 - Test recovery behavior and failure paths, not just the happy path.
 - Ship usable documentation and reproducible checks alongside the software.
 
-Public work here is my own engineering and experimentation. The complete repository list includes smaller tools and supporting projects.
